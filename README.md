@@ -54,12 +54,59 @@ Java实验（三）
 
 ##
 核心代码
+```
+Teacher(int number01, String name, String sex, String c01){
+    super(number01, name, sex);
+}
+Teacher类是People类的子类，声明父类属性的的时候，用super()语句代替构造方法。Student类同理。
 
-##
-注释
+public String toString() {
+		return "教师编号："+number01+","+" 教师姓名："+name+","+" 教师性别："+sex+","+" 所授课程："+course01;
+}
+用toString()语句，返回教师信息。Course类同理，返回课表信息。
+
+Scanner sc = new Scanner(System.in);
+获取用户的键入。
+
+String userName = sc.nextLine();
+将键入赋给一个字符串变量userName。密码同理。
+
+if (userName.equals(xuesheng01.account) && passWord.equals(xuesheng01.code)) {
+    System.out.println("欢迎进入选课系统，李四！");
+    yonghu = "lisi";
+当账号和密码都对的时候，用户是李四。
+
+if(yonghu.equals("lisi")) {
+    xuankeshisha = xuesheng01.course02;
+}else if(yonghu.equals("zhouwu")) {
+    xuankeshisha = xuesheng02.course02;
+}else if(yonghu.equals("wuliu")) {
+    xuankeshisha = xuesheng03.course02;
+}
+用户是谁，就把他的课程给中间变量xuankeshisha。
+
+System.out.println("输入序号进入相应选课程序");
+System.out.println("0：课程列表");
+System.out.println("1：教师列表");
+System.out.println("2：选课");
+System.out.println("3：退课");
+界面设计。
+
+shifouxuanke = 1;
+选课后另中间变量shifouxuanke由0变1。
+
+if (shifouxuanke == 1) {
+    System.out.println("您已选课，不可重复选课");
+中间变量shifouxuanke是1的时候，无法选课。
+
+System.out.println(kecheng01.toString());
+toString()用法。
+
+```
 
 ##
 系统运行截图
+![result](https://github.com/sTormfroNT-TNT/-/blob/main/Img/liuchengtu.png)
 
 ##
 编程感想
