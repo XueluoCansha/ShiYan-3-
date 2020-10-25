@@ -106,7 +106,11 @@ toString()用法。
 
 ##
 系统运行截图
+
 ![result](https://github.com/sTormfroNT-TNT/ShiYan-3-/blob/main/Img/jieguo.png)
 
 ##
 编程感想
+```
+    花了很长时间完成实验三，完成以后对系统需求有了初步了解，从学生选课角度了解系统中的实体及其关系，学会了定义类中的属性以及方法。初步掌握了面向对象的类设计方法。掌握了类的继承用法。学会使用super()。初步掌握使用了Object根类的toString（）方法。
+```
