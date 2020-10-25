@@ -106,7 +106,7 @@ toString()用法。
 
 ##
 系统运行截图
-![result](https://github.com/sTormfroNT-TNT/-/blob/main/Img/liuchengtu.png)
+![result](https://github.com/sTormfroNT-TNT/ShiYan-3-/blob/main/Img/jieguo.png)
 
 ##
 编程感想
