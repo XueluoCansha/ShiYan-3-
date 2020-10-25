@@ -49,7 +49,7 @@ Java实验（三）
 
 ##
 流程图
-![result](https://github.com/sTormfroNT-TNT/-/blob/main/Img/O%5BTZKWYDK%25NZD%7B5U4)CS%40F7.png)
+![result](https://github.com/sTormfroNT-TNT/-/blob/main/Img/liuchengtu.png)
 
 ##
 核心代码
